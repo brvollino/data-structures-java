@@ -1,0 +1,16 @@
+apply from: './java.gradle'
+
+allprojects {    
+    group = 'com.brunovollino.java'
+    version = '0.0.1-SNAPSHOT'
+}
+
+description = "Data structures for Java"
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+    maven {
+        url "https://plugins.gradle.org/m2/"
+    }
+}
